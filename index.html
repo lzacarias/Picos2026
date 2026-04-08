@@ -25,182 +25,216 @@
         }
     </style>
 </head>
-<body class="text-gray-900">
-    <!-- Header -->
-    <header class="bg-emerald-600 text-white py-8 shadow-lg">
-        <div class="container mx-auto px-4 text-center">
-            <h1 class="text-4xl font-bold mb-2">Picos de Europa 2026</h1>
-            <p class="text-emerald-100 italic">Uma aventura épica com amigos</p>
+<body class="text-gray-900 bg-fixed bg-cover bg-center" style="background-image: linear-gradient(rgba(255,255,255,0.9), rgba(255,255,255,0.9)), url('20240520_164541.jpg');">
+    <!-- Header / Hero -->
+    <header class="relative h-[60vh] flex items-center justify-center text-white overflow-hidden shadow-2xl">
+        <div class="absolute inset-0 z-0">
+            <img src="20240518_162252.jpg" alt="Picos Hero" class="w-full h-full object-cover">
+            <div class="absolute inset-0 bg-black/40"></div>
+        </div>
+        <div class="container mx-auto px-4 text-center relative z-10">
+            <h1 class="text-5xl md:text-7xl font-bold mb-4 drop-shadow-lg uppercase tracking-wider">Picos de Europa 2026</h1>
+            <p class="text-xl md:text-2xl text-emerald-200 italic font-light drop-shadow-md">Uma aventura épica com amigos</p>
+            <div class="mt-8 flex justify-center">
+                <div class="w-24 h-1 bg-emerald-500 rounded-full"></div>
+            </div>
         </div>
     </header>
 
     <!-- Main Content -->
-    <main class="container mx-auto px-4 py-12 max-w-4xl">
-        <div class="space-y-12">
+    <main class="container mx-auto px-4 py-16 max-w-4xl relative z-10">
+        <div class="space-y-16">
             
             <!-- Dia 13 -->
-            <section class="bg-white rounded-xl shadow-md p-6 border-l-8 border-emerald-500">
-                <div class="flex items-center justify-between mb-4">
-                    <h2 class="text-2xl font-bold text-emerald-700">13 de Maio, Quarta-feira</h2>
-                    <span class="bg-emerald-100 text-emerald-800 text-xs font-semibold px-2.5 py-0.5 rounded uppercase">Dia 1</span>
+            <section class="bg-white/80 backdrop-blur-sm rounded-2xl shadow-xl p-8 border-l-8 border-emerald-500 transform transition-all hover:shadow-2xl">
+                <div class="flex items-center justify-between mb-6">
+                    <h2 class="text-3xl font-bold text-emerald-800">13 de Maio, Quarta-feira</h2>
+                    <span class="bg-emerald-100 text-emerald-800 text-sm font-bold px-3 py-1 rounded-full uppercase">Dia 1</span>
                 </div>
-                <div class="space-y-3">
-                    <p class="text-lg"><span class="font-semibold">Percurso:</span> Lisboa &rarr; Castelo Branco</p>
-                    <div class="flex items-center text-gray-600">
-                        <i class="fas fa-hotel mr-2 text-emerald-500"></i>
-                        <span>Hotel: <span class="italic text-amber-600">A definir</span></span>
+                <div class="grid md:grid-cols-2 gap-8 items-center">
+                    <div class="space-y-4">
+                        <p class="text-xl"><span class="font-bold text-gray-700">Percurso:</span> Lisboa &rarr; Castelo Branco</p>
+                        <div class="flex items-center text-gray-600">
+                            <i class="fas fa-hotel mr-3 text-emerald-600 text-xl"></i>
+                            <span class="text-lg">Hotel: <span class="italic text-amber-600 font-medium">A definir</span></span>
+                        </div>
+                    </div>
+                    <div class="rounded-xl overflow-hidden shadow-md h-40">
+                        <img src="20240518_150148.jpg" alt="Day 1" class="w-full h-full object-cover">
                     </div>
                 </div>
             </section>
 
             <!-- Dia 14 -->
-            <section class="bg-white rounded-xl shadow-md p-6 border-l-8 border-emerald-500">
-                <div class="flex items-center justify-between mb-4">
-                    <h2 class="text-2xl font-bold text-emerald-700">14 de Maio, Quinta-feira</h2>
-                    <span class="bg-emerald-100 text-emerald-800 text-xs font-semibold px-2.5 py-0.5 rounded uppercase">Dia 2</span>
+            <section class="bg-white/80 backdrop-blur-sm rounded-2xl shadow-xl p-8 border-l-8 border-emerald-500 transform transition-all hover:shadow-2xl">
+                <div class="flex items-center justify-between mb-6">
+                    <h2 class="text-3xl font-bold text-emerald-800">14 de Maio, Quinta-feira</h2>
+                    <span class="bg-emerald-100 text-emerald-800 text-sm font-bold px-3 py-1 rounded-full uppercase">Dia 2</span>
                 </div>
-                <div class="space-y-6">
-                    <!-- Parte 1 -->
-                    <div>
-                        <h3 class="font-semibold text-gray-700 border-b pb-1 mb-2">Parte 1: Manhã e Tarde</h3>
-                        <p class="text-lg">Castelo Branco &rarr; Unhais da Serra &rarr; Seia &rarr; Valhelhas &rarr; Zamora</p>
-                        <p class="text-sm text-red-600 mt-1 font-medium"><i class="fas fa-exclamation-triangle mr-1"></i> Evitar portagens e autoestradas</p>
-                        <a href="https://maps.app.goo.gl/tSoCbJsAiSRoNW7p8" target="_blank" class="inline-flex items-center mt-3 text-emerald-600 hover:text-emerald-800 font-medium transition-colors">
-                            <i class="fas fa-map-marker-alt mr-2"></i> Ver no Google Maps
-                        </a>
+                <div class="space-y-8">
+                    <div class="grid md:grid-cols-2 gap-8 items-start">
+                        <!-- Parte 1 -->
+                        <div class="space-y-4">
+                            <h3 class="font-bold text-emerald-700 border-b-2 border-emerald-100 pb-2 mb-2 text-xl">Parte 1: Manhã e Tarde</h3>
+                            <p class="text-lg leading-relaxed">Castelo Branco &rarr; Unhais da Serra &rarr; Seia &rarr; Valhelhas &rarr; Zamora</p>
+                            <div class="bg-red-50 p-3 rounded-lg border-l-4 border-red-500">
+                                <p class="text-sm text-red-700 font-bold"><i class="fas fa-exclamation-triangle mr-2"></i> Evitar portagens e autoestradas</p>
+                            </div>
+                            <a href="https://maps.app.goo.gl/tSoCbJsAiSRoNW7p8" target="_blank" class="inline-flex items-center text-emerald-600 hover:text-emerald-800 font-bold transition-all group">
+                                <i class="fas fa-map-marker-alt mr-2 group-hover:scale-125 transition-transform"></i> Ver no Google Maps
+                            </a>
+                        </div>
+                        <div class="rounded-xl overflow-hidden shadow-md h-48">
+                            <img src="20240519_162343.jpg" alt="Day 2 Part 1" class="w-full h-full object-cover">
+                        </div>
                     </div>
-                    <!-- Parte 2 -->
-                    <div>
-                        <h3 class="font-semibold text-gray-700 border-b pb-1 mb-2">Parte 2: Final do Dia</h3>
-                        <p class="text-lg">Zamora &rarr; Léon</p>
-                        <p class="text-sm text-emerald-600 mt-1 font-medium"><i class="fas fa-check-circle mr-1"></i> Sem restrições de portagens/autoestrada</p>
-                        <a href="https://maps.app.goo.gl/V2c3xXtxiHXNJUCh7" target="_blank" class="inline-flex items-center mt-3 text-emerald-600 hover:text-emerald-800 font-medium transition-colors">
-                            <i class="fas fa-map-marker-alt mr-2"></i> Ver no Google Maps
-                        </a>
+
+                    <div class="grid md:grid-cols-2 gap-8 items-start pt-8 border-t border-gray-100">
+                        <!-- Parte 2 -->
+                        <div class="space-y-4">
+                            <h3 class="font-bold text-emerald-700 border-b-2 border-emerald-100 pb-2 mb-2 text-xl">Parte 2: Final do Dia</h3>
+                            <p class="text-lg">Zamora &rarr; Léon</p>
+                            <div class="bg-emerald-50 p-3 rounded-lg border-l-4 border-emerald-500">
+                                <p class="text-sm text-emerald-700 font-bold"><i class="fas fa-check-circle mr-2"></i> Sem restrições de portagens</p>
+                            </div>
+                            <a href="https://maps.app.goo.gl/V2c3xXtxiHXNJUCh7" target="_blank" class="inline-flex items-center text-emerald-600 hover:text-emerald-800 font-bold transition-all group">
+                                <i class="fas fa-map-marker-alt mr-2 group-hover:scale-125 transition-transform"></i> Ver no Google Maps
+                            </a>
+                        </div>
+                        <div class="rounded-xl overflow-hidden shadow-md h-48">
+                            <img src="20240520_105744.jpg" alt="Day 2 Part 2" class="w-full h-full object-cover">
+                        </div>
                     </div>
-                    <div class="flex items-center text-gray-600 pt-2">
-                        <i class="fas fa-hotel mr-2 text-emerald-500"></i>
-                        <span>Hotel: <span class="italic text-amber-600">A definir (em Léon)</span></span>
+
+                    <div class="flex items-center text-gray-600 pt-4 bg-gray-50 p-4 rounded-xl border border-gray-200">
+                        <i class="fas fa-hotel mr-3 text-emerald-600 text-xl"></i>
+                        <span class="text-lg">Hotel: <span class="italic text-amber-600 font-medium">A definir (em Léon)</span></span>
                     </div>
                 </div>
             </section>
 
             <!-- Dia 15 -->
-            <section class="bg-white rounded-xl shadow-md p-6 border-l-8 border-emerald-500">
-                <div class="flex items-center justify-between mb-4">
-                    <h2 class="text-2xl font-bold text-emerald-700">15 de Maio, Sexta-feira</h2>
-                    <span class="bg-emerald-100 text-emerald-800 text-xs font-semibold px-2.5 py-0.5 rounded uppercase">Dia 3</span>
+            <section class="bg-white/80 backdrop-blur-sm rounded-2xl shadow-xl p-8 border-l-8 border-emerald-500 transform transition-all hover:shadow-2xl">
+                <div class="flex items-center justify-between mb-6">
+                    <h2 class="text-3xl font-bold text-emerald-800">15 de Maio, Sexta-feira</h2>
+                    <span class="bg-emerald-100 text-emerald-800 text-sm font-bold px-3 py-1 rounded-full uppercase">Dia 3</span>
                 </div>
-                <div class="space-y-4">
-                    <p class="text-lg">Léon &rarr; Riaño &rarr; Cervera de Pisuerga &rarr; Todanca &rarr; Potes &rarr; Cangas de Onís</p>
-                    <a href="https://maps.app.goo.gl/7j5sTDWc5p4yRQNt9" target="_blank" class="inline-flex items-center text-emerald-600 hover:text-emerald-800 font-medium transition-colors">
-                        <i class="fas fa-map-marker-alt mr-2"></i> Ver no Google Maps
-                    </a>
-                    <div class="flex items-center text-gray-600 pt-2 border-t">
-                        <i class="fas fa-hotel mr-2 text-emerald-500"></i>
-                        <span>Hotel: <span class="italic text-amber-600">A definir (em Cangas de Onís)</span></span>
+                <div class="grid md:grid-cols-2 gap-8 items-center">
+                    <div class="space-y-6">
+                        <p class="text-xl leading-relaxed">Léon &rarr; Riaño &rarr; Cervera de Pisuerga &rarr; Todanca &rarr; Potes &rarr; Cangas de Onís</p>
+                        <a href="https://maps.app.goo.gl/7j5sTDWc5p4yRQNt9" target="_blank" class="inline-flex items-center text-emerald-600 hover:text-emerald-800 font-bold transition-all group">
+                            <i class="fas fa-map-marker-alt mr-2 group-hover:scale-125 transition-transform"></i> Ver no Google Maps
+                        </a>
+                        <div class="flex items-center text-gray-600 pt-4 bg-gray-50 p-4 rounded-xl border border-gray-200">
+                            <i class="fas fa-hotel mr-3 text-emerald-600 text-xl"></i>
+                            <span class="text-lg">Hotel: <span class="italic text-amber-600 font-medium">A definir (em Cangas de Onís)</span></span>
+                        </div>
+                    </div>
+                    <div class="rounded-xl overflow-hidden shadow-2xl h-64">
+                        <img src="20240520_140835.jpg" alt="Day 3" class="w-full h-full object-cover">
                     </div>
                 </div>
             </section>
 
             <!-- Dia 16 -->
-            <section class="bg-white rounded-xl shadow-md p-6 border-l-8 border-sky-500">
-                <div class="flex items-center justify-between mb-4">
-                    <h2 class="text-2xl font-bold text-sky-700">16 de Maio, Sábado</h2>
-                    <span class="bg-sky-100 text-sky-800 text-xs font-semibold px-2.5 py-0.5 rounded uppercase">Dia 4</span>
+            <section class="bg-sky-900/90 backdrop-blur-md rounded-2xl shadow-xl p-10 text-white relative overflow-hidden group">
+                <div class="absolute inset-0 z-0 opacity-40 group-hover:opacity-60 transition-opacity">
+                    <img src="20240520_164518.jpg" alt="Picos Sky" class="w-full h-full object-cover">
                 </div>
-                <div class="space-y-4">
-                    <div class="flex items-center space-x-3">
-                        <i class="fas fa-mountain text-sky-500 text-2xl"></i>
-                        <p class="text-xl font-semibold">Dia Livre nos Picos!</p>
+                <div class="relative z-10">
+                    <div class="flex items-center justify-between mb-8">
+                        <h2 class="text-4xl font-bold">16 de Maio, Sábado</h2>
+                        <span class="bg-sky-500 text-white text-sm font-bold px-4 py-1 rounded-full uppercase shadow-lg">Dia 4</span>
                     </div>
-                    <p class="text-gray-600 text-lg">Tempo para explorar a região de Cangas de Onís e Covadonga.</p>
-                    <div class="flex items-center text-gray-600 pt-2 border-t">
-                        <i class="fas fa-hotel mr-2 text-sky-500"></i>
-                        <span>Hotel: <span class="italic">Mesmo sítio (Cangas de Onís)</span></span>
+                    <div class="space-y-6">
+                        <div class="flex items-center space-x-4">
+                            <div class="bg-white/20 p-4 rounded-full backdrop-blur-sm">
+                                <i class="fas fa-mountain text-4xl text-sky-200"></i>
+                            </div>
+                            <div>
+                                <p class="text-3xl font-extrabold tracking-tight">DIA LIVRE NOS PICOS!</p>
+                                <p class="text-sky-100 text-lg">Exploração total em Cangas de Onís e Covadonga.</p>
+                            </div>
+                        </div>
+                        <div class="pt-6 border-t border-white/20">
+                            <div class="flex items-center text-sky-100 bg-white/10 p-4 rounded-xl backdrop-blur-sm inline-block">
+                                <i class="fas fa-hotel mr-3 text-sky-300 text-xl"></i>
+                                <span class="text-lg font-medium">Hotel: <span class="italic text-sky-200 underline decoration-sky-400">Mesmo sítio (Cangas de Onís)</span></span>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </section>
 
             <!-- Dia 17 -->
-            <section class="bg-white rounded-xl shadow-md p-6 border-l-8 border-emerald-500">
-                <div class="flex items-center justify-between mb-4">
-                    <h2 class="text-2xl font-bold text-emerald-700">17 de Maio, Domingo</h2>
-                    <span class="bg-emerald-100 text-emerald-800 text-xs font-semibold px-2.5 py-0.5 rounded uppercase">Dia 5</span>
+            <section class="bg-white/80 backdrop-blur-sm rounded-2xl shadow-xl p-8 border-l-8 border-emerald-500 transform transition-all hover:shadow-2xl">
+                <div class="flex items-center justify-between mb-6">
+                    <h2 class="text-3xl font-bold text-emerald-800">17 de Maio, Domingo</h2>
+                    <span class="bg-emerald-100 text-emerald-800 text-sm font-bold px-3 py-1 rounded-full uppercase">Dia 5</span>
                 </div>
-                <div class="space-y-4">
-                    <p class="text-lg">Cangas de Onís &rarr; Chaves &rarr; Vila Real</p>
-                    <a href="https://maps.app.goo.gl/WLY39V8LpJ5FHagw5" target="_blank" class="inline-flex items-center text-emerald-600 hover:text-emerald-800 font-medium transition-colors">
-                        <i class="fas fa-map-marker-alt mr-2"></i> Ver no Google Maps
-                    </a>
-                    <div class="flex items-center text-gray-600 pt-2 border-t">
-                        <i class="fas fa-hotel mr-2 text-emerald-500"></i>
-                        <span>Hotel: <span class="italic text-amber-600">A definir (em Vila Real)</span></span>
+                <div class="grid md:grid-cols-2 gap-8 items-center">
+                    <div class="space-y-6">
+                        <p class="text-xl leading-relaxed">Cangas de Onís &rarr; Chaves &rarr; Vila Real</p>
+                        <a href="https://maps.app.goo.gl/WLY39V8LpJ5FHagw5" target="_blank" class="inline-flex items-center text-emerald-600 hover:text-emerald-800 font-bold transition-all group">
+                            <i class="fas fa-map-marker-alt mr-2 group-hover:scale-125 transition-transform"></i> Ver no Google Maps
+                        </a>
+                        <div class="flex items-center text-gray-600 pt-4 bg-gray-50 p-4 rounded-xl border border-gray-200">
+                            <i class="fas fa-hotel mr-3 text-emerald-600 text-xl"></i>
+                            <span class="text-lg">Hotel: <span class="italic text-amber-600 font-medium">A definir (em Vila Real)</span></span>
+                        </div>
+                    </div>
+                    <div class="rounded-xl overflow-hidden shadow-md h-48">
+                        <img src="20240521_103458.jpg" alt="Day 5" class="w-full h-full object-cover">
                     </div>
                 </div>
             </section>
 
             <!-- Dia 18 -->
-            <section class="bg-white rounded-xl shadow-md p-6 border-l-8 border-emerald-500">
-                <div class="flex items-center justify-between mb-4">
-                    <h2 class="text-2xl font-bold text-emerald-700">18 de Maio, Segunda-feira</h2>
-                    <span class="bg-emerald-100 text-emerald-800 text-xs font-semibold px-2.5 py-0.5 rounded uppercase">Dia 6</span>
+            <section class="bg-white/80 backdrop-blur-sm rounded-2xl shadow-xl p-8 border-l-8 border-emerald-500 transform transition-all hover:shadow-2xl">
+                <div class="flex items-center justify-between mb-6">
+                    <h2 class="text-3xl font-bold text-emerald-800">18 de Maio, Segunda-feira</h2>
+                    <span class="bg-emerald-100 text-emerald-800 text-sm font-bold px-3 py-1 rounded-full uppercase">Dia 6</span>
                 </div>
-                <div class="space-y-3">
-                    <p class="text-lg"><span class="font-semibold">Percurso:</span> Vila Real &rarr; Lisboa</p>
-                    <p class="text-sm text-gray-500 italic">Percurso final a definir.</p>
+                <div class="grid md:grid-cols-2 gap-8 items-center">
+                    <div class="space-y-4">
+                        <p class="text-xl leading-relaxed"><span class="font-bold text-gray-700">Percurso:</span> Vila Real &rarr; Lisboa</p>
+                        <div class="bg-amber-50 p-4 rounded-xl border-l-4 border-amber-500">
+                            <p class="text-sm text-amber-800 font-bold italic">Percurso final a definir com base no cansaço da malta!</p>
+                        </div>
+                    </div>
+                    <div class="rounded-xl overflow-hidden shadow-md h-40">
+                        <img src="20240521_112926.jpg" alt="Day 6" class="w-full h-full object-cover">
+                    </div>
                 </div>
             </section>
 
         </div>
     </main>
 
-    <!-- Galeria de Aventuras -->
-    <section class="bg-gray-100 py-12 mt-12 shadow-inner">
-        <div class="container mx-auto px-4 max-w-5xl">
-            <div class="text-center mb-10">
-                <h2 class="text-3xl font-bold text-gray-800">Galeria de Aventuras</h2>
-                <div class="w-16 h-1 bg-emerald-500 mx-auto mt-2"></div>
-                <p class="text-gray-600 mt-4 italic">Algumas memórias das nossas passagens por lá...</p>
+    <!-- Galeria de Aventuras (Compacta) -->
+    <section class="bg-black/90 py-16 relative z-10 shadow-[0_-20px_50px_rgba(0,0,0,0.5)]">
+        <div class="container mx-auto px-4 max-w-6xl">
+            <div class="text-center mb-12">
+                <h2 class="text-4xl font-bold text-white mb-2">Galeria de Aventuras</h2>
+                <p class="text-emerald-400 font-medium">Memórias para a vida</p>
+                <div class="w-20 h-1 bg-emerald-500 mx-auto mt-6"></div>
             </div>
             
-            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
-                <div class="overflow-hidden rounded-xl shadow-lg group">
-                    <img src="20240518_150148.jpg" alt="Picos 1" loading="lazy" class="w-full h-64 object-cover transform transition-transform duration-500 group-hover:scale-110">
-                </div>
-                <div class="overflow-hidden rounded-xl shadow-lg group">
-                    <img src="20240518_162252.jpg" alt="Picos 2" loading="lazy" class="w-full h-64 object-cover transform transition-transform duration-500 group-hover:scale-110">
-                </div>
-                <div class="overflow-hidden rounded-xl shadow-lg group">
-                    <img src="20240519_162343.jpg" alt="Picos 3" loading="lazy" class="w-full h-64 object-cover transform transition-transform duration-500 group-hover:scale-110">
-                </div>
-                <div class="overflow-hidden rounded-xl shadow-lg group">
-                    <img src="20240520_105744.jpg" alt="Picos 4" loading="lazy" class="w-full h-64 object-cover transform transition-transform duration-500 group-hover:scale-110">
-                </div>
-                <div class="overflow-hidden rounded-xl shadow-lg group">
-                    <img src="20240520_140835.jpg" alt="Picos 5" loading="lazy" class="w-full h-64 object-cover transform transition-transform duration-500 group-hover:scale-110">
-                </div>
-                <div class="overflow-hidden rounded-xl shadow-lg group">
-                    <img src="20240520_164518.jpg" alt="Picos 6" loading="lazy" class="w-full h-64 object-cover transform transition-transform duration-500 group-hover:scale-110">
-                </div>
-                <div class="overflow-hidden rounded-xl shadow-lg group">
-                    <img src="20240520_164541.jpg" alt="Picos 7" loading="lazy" class="w-full h-64 object-cover transform transition-transform duration-500 group-hover:scale-110">
-                </div>
-                <div class="overflow-hidden rounded-xl shadow-lg group">
-                    <img src="20240521_103458.jpg" alt="Picos 8" loading="lazy" class="w-full h-64 object-cover transform transition-transform duration-500 group-hover:scale-110">
-                </div>
-                <div class="overflow-hidden rounded-xl shadow-lg group">
-                    <img src="20240521_112926.jpg" alt="Picos 9" loading="lazy" class="w-full h-64 object-cover transform transition-transform duration-500 group-hover:scale-110">
-                </div>
+            <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4">
+                <img src="20240518_150148.jpg" alt="G1" class="h-40 w-full object-cover rounded-lg border-2 border-white/10 hover:border-emerald-500 transition-all cursor-pointer shadow-lg hover:scale-105">
+                <img src="20240518_162252.jpg" alt="G2" class="h-40 w-full object-cover rounded-lg border-2 border-white/10 hover:border-emerald-500 transition-all cursor-pointer shadow-lg hover:scale-105">
+                <img src="20240519_162343.jpg" alt="G3" class="h-40 w-full object-cover rounded-lg border-2 border-white/10 hover:border-emerald-500 transition-all cursor-pointer shadow-lg hover:scale-105">
+                <img src="20240520_105744.jpg" alt="G4" class="h-40 w-full object-cover rounded-lg border-2 border-white/10 hover:border-emerald-500 transition-all cursor-pointer shadow-lg hover:scale-105">
+                <img src="20240520_140835.jpg" alt="G5" class="h-40 w-full object-cover rounded-lg border-2 border-white/10 hover:border-emerald-500 transition-all cursor-pointer shadow-lg hover:scale-105">
             </div>
         </div>
     </section>
 
     <!-- Footer -->
-    <footer class="bg-gray-800 text-white py-8 mt-0">
+    <footer class="bg-black py-10 relative z-10">
         <div class="container mx-auto px-4 text-center">
-            <p class="text-gray-400">Picos de Europa &bull; Maio 2026</p>
-            <p class="mt-2 text-sm italic text-gray-500">powered by zaca</p>
+            <p class="text-gray-500 font-medium tracking-widest uppercase text-xs">Picos de Europa &bull; Maio 2026</p>
+            <p class="mt-4 text-sm italic text-emerald-600/60 font-bold tracking-tighter">powered by zaca</p>
         </div>
     </footer>
 </body>
